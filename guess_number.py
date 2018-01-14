@@ -1,4 +1,4 @@
-def Guessing():
+def main():
 	print "Guess number between 1 and 100"
 	random_number=40
 	found=False
@@ -11,5 +11,5 @@ def Guessing():
 		else:
 			print "That's not it"
 
-Guessing()
-
+if __name__=='__main__':
+	main()
